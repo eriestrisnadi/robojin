@@ -9,7 +9,7 @@ Just an irc bot that can interacting with users
 ```bash
 git clone https://github.com/lowsprofile/robojin.git
 ```
-Or, you can download from the latest release [here]()
+Or, you can download from the latest release [here](https://github.com/lowsprofile/robojin/releases)
 ###### Install Dependencies
 ```bash
 npm install
