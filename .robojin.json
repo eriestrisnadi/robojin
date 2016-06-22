@@ -1,0 +1,7 @@
+{
+  "server": "irc.rizon.net",
+  "port": 6697,
+  "botname": "robojin",
+  "channel": "#sorai",
+  "format": "json"
+}
