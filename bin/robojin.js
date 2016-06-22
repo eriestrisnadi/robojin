@@ -97,8 +97,11 @@ client.addListener('message', function(from, to, message) {
   } else if(/^::join #[a-zA-Z0-9]/i.test(message)){
     var chan = message.split(" ")[1];
     client.join(chan, function(input) {
-      console.log( chalk.green('Joined ' + chan) );
+      client.say(to, 'Joined ' + chan);
+      console.log( chalk.green('Request permission to join ' + chan) );
     });
+  } else if(/^::rippls/i.test(message)){
+    client.disconnect();
   }
 });
 
