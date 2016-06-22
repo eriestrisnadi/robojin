@@ -2,9 +2,9 @@
   "name": "robojin",
   "version": "0.0.1",
   "description": "just an irc bot that can interacting with users",
-  "main": "./bin/roboto.js",
+  "main": "./bin/robojin.js",
   "scripts": {
-    "start": "node ./bin/roboto.js"
+    "start": "node ./bin/robojin.js"
   },
   "repository": {
     "type": "git",
