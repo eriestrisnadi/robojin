@@ -2,6 +2,6 @@
   "server": "irc.rizon.net",
   "port": 6697,
   "botname": "robojin",
-  "channel": "#sorai",
+  "channel": "#sorairo-subs",
   "format": "json"
 }
