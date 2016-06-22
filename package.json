@@ -1,5 +1,5 @@
 {
-  "name": "roboto",
+  "name": "robojin",
   "version": "0.0.1",
   "description": "just an irc bot that can interacting with users",
   "main": "./bin/roboto.js",
