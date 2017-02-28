@@ -4,7 +4,7 @@
   "description": "just an irc bot that can interacting with users",
   "main": "./bin/robojin.js",
   "scripts": {
-    "start": "node ./bin/robojin.js"
+    "test": "mocha --timeout 10000"
   },
   "repository": {
     "type": "git",
@@ -31,5 +31,8 @@
   },
   "engines": {
     "node": ">=0.10.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0"
   }
 }
